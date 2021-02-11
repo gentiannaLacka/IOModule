@@ -1,0 +1,16 @@
+C:\Users\gentianalacka\IOModule\bin\Debug\net5.0\IOModule.exe
+C:\Users\gentianalacka\IOModule\bin\Debug\net5.0\IOModule.deps.json
+C:\Users\gentianalacka\IOModule\bin\Debug\net5.0\IOModule.runtimeconfig.json
+C:\Users\gentianalacka\IOModule\bin\Debug\net5.0\IOModule.runtimeconfig.dev.json
+C:\Users\gentianalacka\IOModule\bin\Debug\net5.0\IOModule.dll
+C:\Users\gentianalacka\IOModule\bin\Debug\net5.0\ref\IOModule.dll
+C:\Users\gentianalacka\IOModule\bin\Debug\net5.0\IOModule.pdb
+C:\Users\gentianalacka\IOModule\obj\Debug\net5.0\IOModule.csprojAssemblyReference.cache
+C:\Users\gentianalacka\IOModule\obj\Debug\net5.0\IOModule.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gentianalacka\IOModule\obj\Debug\net5.0\IOModule.AssemblyInfoInputs.cache
+C:\Users\gentianalacka\IOModule\obj\Debug\net5.0\IOModule.AssemblyInfo.cs
+C:\Users\gentianalacka\IOModule\obj\Debug\net5.0\IOModule.csproj.CoreCompileInputs.cache
+C:\Users\gentianalacka\IOModule\obj\Debug\net5.0\IOModule.dll
+C:\Users\gentianalacka\IOModule\obj\Debug\net5.0\ref\IOModule.dll
+C:\Users\gentianalacka\IOModule\obj\Debug\net5.0\IOModule.pdb
+C:\Users\gentianalacka\IOModule\obj\Debug\net5.0\IOModule.genruntimeconfig.cache
