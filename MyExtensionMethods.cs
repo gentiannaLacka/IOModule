@@ -10,6 +10,7 @@ namespace IOModule
             int i, len, vowel_count;
             vowel_count = 0;
             len = str.Length;
+            
             if (String.IsNullOrEmpty(str))
             {
                 return 0;

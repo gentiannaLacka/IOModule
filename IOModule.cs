@@ -2,12 +2,19 @@ using System;
 
 namespace IOModule
 {
-
     class IOModule
     {
-        public delegate void EventHandler(object sender, EventArgs args);
-        public event EventHandler ThrowEvent = delegate { };
+        public event EventHandler NotifyEvent;
+        public void Start()
+        {
+            OnStart(new EventArgs());
+        }
 
-        public void JobEvent() => ThrowEvent(this, new EventArgs());
+        protected virtual void OnStart(EventArgs e)
+        {
+            EventHandler raiseEvent = NotifyEvent;
+            raiseEvent?.Invoke(this, e);
+        }
     }
+
 }

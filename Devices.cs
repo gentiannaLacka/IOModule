@@ -11,35 +11,27 @@ namespace IOModule
             StackFrame frame = new StackFrame(1);
             MethodBase method = frame.GetMethod();
 
-            Console.WriteLine(method.DeclaringType.Name);
+            Console.WriteLine("Class name: " + method.DeclaringType.Name);
         }
     }
     class Printer : BaseClass
     {
-        private IOModule _ioModuleEvent;
-
-        public Printer()
+        public Printer(IOModule module)
         {
-            _ioModuleEvent = new IOModule();
-
-            _ioModuleEvent.ThrowEvent += (sender, args) => { DoJob(); };
+            module.NotifyEvent += DoJob;
         }
-        public override void DoJob()
+        public void DoJob(object sender, EventArgs e)
         {
             base.DoJob();
         }
     }
     class Scanner : BaseClass
     {
-        private IOModule _ioModuleEvent;
-
-        public Scanner()
+        public Scanner(IOModule iOModule)
         {
-            _ioModuleEvent = new IOModule();
-
-            _ioModuleEvent.ThrowEvent += (sender, args) => { DoJob(); };
+            iOModule.NotifyEvent += DoJob;
         }
-        public override void DoJob()
+        public void DoJob(object sender, EventArgs e)
         {
             base.DoJob();
         }
@@ -47,15 +39,11 @@ namespace IOModule
 
     class Scale : BaseClass
     {
-        private IOModule _ioModuleEvent;
-
-        public Scale()
+        public Scale(IOModule iOModule)
         {
-            _ioModuleEvent = new IOModule();
-
-            _ioModuleEvent.ThrowEvent += (sender, args) => { DoJob(); };
+            iOModule.NotifyEvent += DoJob;
         }
-        public override void DoJob()
+        public void DoJob(object sender, EventArgs e)
         {
             base.DoJob();
         }
